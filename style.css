@@ -55,6 +55,11 @@ h2.titulo span{
     margin: 0 auto;
 }
 
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #8451ea;
+    transform: scale(1.1);
+}
+
 /* Estilo Cabeçalho */
 
 header{     
@@ -92,10 +97,7 @@ header nav ul li{
 }
 
 
-.btn-contato button:hover{
-    box-shadow: 0px 0px 8px #8451ea;
-    transform: scale(1.1);
-}
+
 
 /* Estilo do topo do site */
 
@@ -172,4 +174,102 @@ section.especialidades .flex {
 .especialidades .especialidades-box h3{
     font-size: 28px;
     margin: 15px 0;
+}
+
+/* Estilo sobre */
+
+section.sobre{
+    padding: 80px 4%;
+}
+
+section.sobre .flex{
+    align-items: center;
+    gap: 60px;
+}
+
+.sobre .txt-sobre {
+    color: #ffffff;
+}
+
+.sobre .txt-sobre h2{
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 30px;
+
+}
+
+.sobre .txt-sobre h2 span{
+    color: #8551ea;
+    display: block;
+
+}
+
+.sobre .txt-sobre p{
+   margin: 25px, 0;
+   text-align: justify;
+}
+
+
+.sobre .txt-sobre .btn-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: #8551ea;
+    font-size: 23px;
+    cursor: pointer;
+    margin: 0 10px;
+    margin-top: 0 10px;
+    transition: .2s;
+}
+
+
+/* estilo form cotnato */
+
+section.formulario{
+    padding: 80px 4%;
+}
+
+form{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 40px;
+}
+
+form input, form textarea{
+    width: 100%;
+    background-color: rgba(71, 71, 71, 0.466);
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+    color: #ffffff;
+    font-size: 18px;
+
+}
+
+
+
+form textarea{
+    resize: none;
+    height: 200px;
+    
+}
+
+form .btn-enviar{
+    margin-top: 20px;
+
+}
+
+form .btn-enviar input{
+    width: 120px;
+    text-align: center;
+    background-color: #8551ea;
+    color: #000000;
+    cursor: pointer;
+    transition: .2s;
 }
