@@ -210,7 +210,7 @@ section.sobre .flex{
 }
 
 
-.sobre .txt-sobre .btn-social button{
+.btn-social button{
     width: 60px;
     height: 60px;
     border-radius: 50%;
@@ -272,4 +272,28 @@ form .btn-enviar input{
     color: #000000;
     cursor: pointer;
     transition: .2s;
+}
+
+/* Estilo rodapé */
+
+footer{
+    padding: 60px 4%;
+    color: #ffffff;
+    box-shadow: 0 0 40px 10px #ffffff1d;
+}
+
+footer .flex{
+    justify-content: space-between;
+
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+
+footer .line-footer p i{
+    color: #8551ea;
+    font-size: 22px;
+
 }
